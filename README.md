@@ -49,14 +49,16 @@ sudo systemctl enable vncserver-x11-serviced
 
 # Instructions d'utilisation
 
-Installation : Exécutez le script d'installation
+Exécutez le script d'installation
 -
-Connexion : Branchez la Kinect avec son adaptateur secteur
+Branchez la Kinect avec son adaptateur secteur
 -
-Lancement : Démarrez l'application
+Démarrez l'application
 -
-Contrôles : Bougez devant la Kinect pour générer des patterns
+Bougez devant la Kinect pour générer des patterns
+-
 ESPACE : Changer de pattern
+
 ECHAP : Quitter
 
 # Erreurs communes :
