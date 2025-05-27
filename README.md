@@ -54,8 +54,8 @@ Installation : Exécutez le script d'installation
 Connexion : Branchez la Kinect avec son adaptateur secteur
 -
 Lancement : Démarrez l'application
-Contrôles :
-Bougez devant la Kinect pour générer des patterns
+-
+Contrôles : Bougez devant la Kinect pour générer des patterns
 ESPACE : Changer de pattern
 ECHAP : Quitter
 
