@@ -54,8 +54,8 @@ pip3 install \
 
 # Création du répertoire de travail
 echo "Création du répertoire de travail..."
-mkdir -p /home/mams/kinect_patterns
-cd /home/mams/kinect_patterns
+mkdir -p /home/pi/kinect_patterns
+cd /home/pi/kinect_patterns
 
 # Configuration de l'autostart (optionnel)
 read -p "Voulez-vous configurer le démarrage automatique? (y/n): " -n 1 -r
@@ -69,8 +69,8 @@ After=graphical.target
 
 [Service]
 Type=simple
-User=mams
-WorkingDirectory=/home/mams/kinect_patterns
+User=pi
+WorkingDirectory=/home/pi/kinect_patterns
 ExecStart=/usr/bin/python3 main.py
 Restart=always
 Environment=DISPLAY=:0
@@ -89,7 +89,7 @@ if ! grep -q "gpu_mem=128" /boot/config.txt; then
 fi
 
 # Ajout de l'utilisateur au groupe plugdev
-usermod -a -G plugdev mams
+usermod -a -G plugdev pi
 
 echo "Installation terminée!"
 echo "Redémarrez le système et branchez votre Kinect"
