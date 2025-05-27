@@ -3,11 +3,11 @@ Configuration et lancement
 1. Structure des fichiers
 
 /home/pi/kinect_patterns/
-├── main.py
-├── kinect_manager.py
-├── pattern_generator.py
-├── install.sh
-└── README.md
+main.py
+kinect_manager.py
+pattern_generator.py
+install.sh
+README.md
 
 2. Installation
 
