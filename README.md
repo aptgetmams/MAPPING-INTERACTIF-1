@@ -1,5 +1,3 @@
-
-
 Configuration et lancement
 
 1. Structure des fichiers
@@ -39,4 +37,5 @@ sudo systemctl enable ssh
 
 # Configuration VNC pour interface graphique distante
 sudo apt install realvnc-vnc-server
+
 sudo systemctl enable vncserver-x11-serviced
