@@ -57,19 +57,23 @@ Bougez devant la Kinect pour générer des patterns
 ESPACE : Changer de pattern
 ECHAP : Quitter
 
-# Dépannage
-Erreurs communes :
+# Erreurs communes :
 "Kinect not found" : Vérifiez les connexions et les permissions USB
+
 Performance lente : Réduisez la résolution et le nombre de particules
+
 Import Error : Vérifiez l'installation de libfreenect
 
-# Test de la Kinect
+Test de la Kinect
+-
 lsusb | grep "Xbox"
 
-# Test des permissions
+Test des permissions
+-
 groups pi | grep plugdev
 
-# Log des erreurs
+Log des erreurs
+-
 journalctl -u kinect-patterns.service -f
 
 Ce projet est maintenant prêt pour une Raspberry Pi 3B+ avec une carte SD 16Go. Il génère des patterns visuels réactifs au mouvement humain capté par la Kinect V1.
