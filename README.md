@@ -1,3 +1,5 @@
+#*
+
 Configuration et lancement
 
 1. Structure des fichiers
@@ -39,3 +41,5 @@ sudo systemctl enable ssh
 sudo apt install realvnc-vnc-server
 
 sudo systemctl enable vncserver-x11-serviced
+
+*#
